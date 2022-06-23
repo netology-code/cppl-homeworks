@@ -20,6 +20,11 @@
 
 Прочитать про него можно [здесь](https://ru.cppreference.com/w/cpp/container/vector). Вам понадобсятся методы `begin` и `end`
 
+</details>
+
+
+<details>
+
 <summary>Подсказка 2. А какую функцию мне использовать?</summary>
 
 Можно использовать функцию `std::for_each`
