@@ -6,21 +6,21 @@
 * Конструктор, который принмает количество элементов, которое будет хранить массив
 * Функция добавления нового элемента в массив (не забудьте обработать случай, когда кол-во элементов > кол-ва элементов, на которую выделена память)
 * Функция получения элемента по индексу (не забудьте проверку на корректность индекса)
-* Дестуктор
+* Деструктор
 
 ### Пример правильной работы программы
 Работа с вашим классом должна происходить примерно так
 ``` C++
 try {
-		smart_array arr(5);
-		arr.add_element(1);
-		arr.add_element(4);
-		arr.add_element(155);
-		arr.add_element(14);
-		arr.add_element(15);
-		std::cout << arr.get_element(1) << std::endl;
-	}
-	catch (const std::exception& ex) {
-		std::cout << ex.what() << std::endl;
-	}
+	smart_array arr(5);
+	arr.add_element(1);
+	arr.add_element(4);
+	arr.add_element(155);
+	arr.add_element(14);
+	arr.add_element(15);
+	std::cout << arr.get_element(1) << std::endl;
+}
+catch (const std::exception& ex) {
+	std::cout << ex.what() << std::endl;
+}
 ```
