@@ -26,6 +26,7 @@
 ### Задание 2
 
 [Копирование умных массивов](https://github.com/netology-code/cppl-homeworks/tree/main/03/02)
+
 ------
 
 ### Правила приема работы:
