@@ -25,11 +25,7 @@
 
 ### Задание 2
 
-[Проверка функций добавления в список](https://github.com/netology-code/cppl-homeworks/tree/main/04/02)
-
-### Задание 3
-
-[Проверка функций получения элемента из списка](https://github.com/netology-code/cppl-homeworks/tree/main/04/03)
+[Проверка функций добавления и получения элементов из двусвязного списка](https://github.com/netology-code/cppl-homeworks/tree/main/04/02)
 
 ------
 
