@@ -11,3 +11,10 @@ get_sum(), get_count()
 [OUT]: get_sum() = 63
 [OUT]: get_count() = 3
 ```
+<details>
+
+<summary>Подсказка 1. Какие функции использовать?</summary>
+
+Можете использовать функцию `std::foreach`
+
+</details>
