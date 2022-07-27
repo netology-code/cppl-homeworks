@@ -18,7 +18,7 @@
 
 <summary>Подсказка 1. Что такое вектор?</summary>
 
-Прочитать про него можно [здесь](https://ru.cppreference.com/w/cpp/container/vector). Вам понадобсятся методы `begin` и `end`
+Прочитать про него можно [здесь](https://ru.cppreference.com/w/cpp/container/vector). Вам понадобятся методы `begin` и `end`
 
 </details>
 
