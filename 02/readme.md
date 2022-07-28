@@ -23,9 +23,9 @@
 
 [Программа с ошибками](https://github.com/netology-code/cppl-homeworks/tree/main/02/01)
 
-### Задание 1
+### Задание 2*
 
-[Программа с ошибками](https://github.com/netology-code/cppl-homeworks/tree/main/02/02)
+[Сплошные ошибки](https://github.com/netology-code/cppl-homeworks/tree/main/02/02)
 
 ------
 
