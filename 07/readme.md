@@ -27,7 +27,7 @@
 
 [Удаление дубликатов](https://github.com/netology-code/cppl-homeworks/tree/main/07/02)
 
-### Задание 3
+### Задание 3*
 
 [Аналог std::vector](https://github.com/netology-code/cppl-homeworks/tree/main/07/03)
 
