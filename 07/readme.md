@@ -30,6 +30,7 @@
 ### Задание 3
 
 [Аналог std::vector](https://github.com/netology-code/cppl-homeworks/tree/main/07/03)
+
 ------
 
 ### Правила приема работы:
