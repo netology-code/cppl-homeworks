@@ -25,7 +25,11 @@
 
 ### Задание 2
 
+[Исправление ошибки](https://github.com/netology-code/cppl-homeworks/tree/main/10/02)
 
+### Задание 3*
+
+[std::unique_ptr своими руками](https://github.com/netology-code/cppl-homeworks/tree/main/10/03)
 
 ------
 
