@@ -5,7 +5,7 @@
 Сообщение `destructor called` должно быть выведено 2 раза.
 
 ``` C++
-##include <iostream>
+#include <iostream>
 #include <vector>
 #include <memory>
 
