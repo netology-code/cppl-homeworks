@@ -4,7 +4,7 @@
 Бывает полезно быстро создать копию объекта, которая самостоятельно управляет своей памятью.
 Если объект класса тяжелый и имеет много данных на стеке, то целесообразнее возвращать unique_ptr.
 В этом задании вам необходимо написать функцию `clone` для класса трехдиагональной матрицы, код которого представлен
-ниже
+ниже, которая возвращает `std::unique_ptr`.
 
 ``` C++
 #include <iostream>
@@ -33,7 +33,7 @@ int main()
     auto down = std::vector<double>{ -4.0, 5.0 };
     auto upper = std::vector<double>{ 14.0, 8.0 };
     auto middle = std::vector<double>{ 3.0, 1.0, 7.0 };
-    auto matrix = tridiagonal_matrix(
+    auto matrix = std::make_unique<tridiagonal_matrix>(
         down,
         upper,
         middle
