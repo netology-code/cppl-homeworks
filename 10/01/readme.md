@@ -39,7 +39,7 @@ int main()
         middle
     );
 
-    auto matrix_clone = matrix.clone();
+    auto matrix_clone = matrix->clone();
 
     return 0;
 }
