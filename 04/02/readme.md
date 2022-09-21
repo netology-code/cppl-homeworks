@@ -2,7 +2,7 @@
 
 ### Описание
 В этом задании вам нужно написать тесты для некоторых функций двусвзяного списка.
-Сначала нужно добавить Catch2 в ваш проект. Инструкция дана [по ссылке](https://github.com/catchorg/Catch2/blob/devel/docs/cmake-integration.md).
+Сначала добавьте Catch2 в ваш проект. Инструкция дана [по ссылке](https://github.com/catchorg/Catch2/blob/devel/docs/cmake-integration.md).
 
 Нужно проверить работу следующих функций:
 1. PushBack.
