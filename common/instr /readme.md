@@ -18,4 +18,4 @@
 
 Первый стандарт C++ вышел в 1985 г.
 
-https://github.com/netology-code/cppl-homeworks/blob/main/common/instr/1.png
+![Image alt](https://github.com/netology-code/cppl-homeworks/blob/main/common/instr/1.png)
