@@ -17,3 +17,5 @@
 - утверждает международные стандарты
 
 Первый стандарт C++ вышел в 1985 г.
+
+https://github.com/netology-code/cppl-homeworks/blob/main/common/instr/1.png
