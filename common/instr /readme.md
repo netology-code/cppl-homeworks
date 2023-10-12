@@ -61,7 +61,7 @@
 
 ![Image alt](https://github.com/netology-code/cppl-homeworks/blob/main/common/5.PNG)
 
-Если мы укажем целый числа, например, 3 и 5, то тип данных (T) будет int
+Если мы укажем целые числа, например, 3 и 5, то тип данных (T) будет int
 
 ![Image alt](https://github.com/netology-code/cppl-homeworks/blob/main/common/8.PNG)
 
@@ -73,7 +73,7 @@
 
 ![Image alt](https://github.com/netology-code/cppl-homeworks/blob/main/common/10.PNG)
 
-### В C++11 не разрешается применение «auto» для типа отображаемых данных. 
+### В C++11 нет возможности применения «auto» для типа отображаемых данных. 
 
 Вместо этого, вам необходимо указать конкретные типы параметров.
 
