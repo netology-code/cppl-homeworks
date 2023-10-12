@@ -47,7 +47,9 @@ C++20 - минорный патч
 ### Ключевое слово auto
 Можно явно не указывать тип переменной при инициализации - компилятор выведет тип за нас.
 
+![Image alt](https://github.com/netology-code/cppl-homeworks/blob/main/common/2.PNG)
 
+![Image alt](https://github.com/netology-code/cppl-homeworks/blob/main/common/3.PNG)
 
 
 
