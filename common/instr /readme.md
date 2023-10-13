@@ -113,9 +113,10 @@ Range-based for loop — это функциональность, введенн
 Синтаксис Range for следующий:
 
 for (элемент : контейнер)
+
 	какое-то действие
 
-Рассмотрим пример:
+### Рассмотрим, как работает классический способ:
 
 ![Image alt](https://github.com/netology-code/cppl-homeworks/blob/main/common/12.PNG)
 
@@ -137,13 +138,42 @@ for (int i = 0; i < vi.size(); i++) {
 
 ![Image alt](https://github.com/netology-code/cppl-homeworks/blob/main/common/13.PNG)
 
+### Рассмотрим, как это будет работать с Range-based for
+
+Поскольку у нас интовый вектор, то мы пишем:
+
+![Image alt](https://github.com/netology-code/cppl-homeworks/blob/main/common/14.PNG)
+
+Нужно запомнить синтксис:
+
+for (int i : vi)
+
+int i  - тип переменной i должен совпадать с типом объектов, которые содержит контейнер (в данном примере они интовые: vi{ 1,2,3,4,5 })
+vi - название контейнера, по которому мы ходим
+
+Каждый объект, который содержится в контейнере vi{ 1,2,3,4,5 } последовательно помещается в переменную i. 
+
+То есть, мы проходимся по всему диапазону, в котором лежат элементы контейнера. 
+
+![Image alt](https://github.com/netology-code/cppl-homeworks/blob/main/common/15.PNG)
+
+Это будет работать и с массивом arr:
+
+![Image alt](https://github.com/netology-code/cppl-homeworks/blob/main/common/16.PNG)
+
+![Image alt](https://github.com/netology-code/cppl-homeworks/blob/main/common/17.PNG)
+
+Итак, стандартный for можно использовать как foreach (цикл, основанный на диапазоне).
+
+### Идеально использовать с «auto»
+
+В случае, если массив arr инициализируется числами типа double или используются объекты кастомного класса my_class (), удобно использовать «auto»:
+
+![Image alt](https://github.com/netology-code/cppl-homeworks/blob/main/common/18.PNG)
 
 
 
 
-
-
-Стандартный for можно использовать как foreach (цикл, основанный на диапазоне)
 
 
 
