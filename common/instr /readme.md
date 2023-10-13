@@ -133,6 +133,9 @@ for (int i = 0; i < vi.size(); i++) {
 	std::cout << vi[i] << "\t";
 }
 
+После компиляции мы распечатаем все элементы контейнера:
+
+![Image alt](https://github.com/netology-code/cppl-homeworks/blob/main/common/13.PNG)
 
 
 
