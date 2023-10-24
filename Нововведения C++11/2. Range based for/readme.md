@@ -4,9 +4,9 @@ Range-based for loop — это функциональность, введенн
 
 Синтаксис Range for следующий:
 
- `for (элемент : контейнер)`
- 
-  `какое-то действие `
+![Image alt](https://github.com/netology-code/cppl-homeworks/blob/main/common/24.PNG)
+
+
 
 ## Рассмотрим, как работает классический способ вывода содержимого контейнера:
 
