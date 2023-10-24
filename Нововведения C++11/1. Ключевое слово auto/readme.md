@@ -8,13 +8,13 @@
 
 В C++11 вместо явного указания типа можно использовать ключевое слово «auto», которое позволяет компилятору самостоятельно определить тип переменной на основе её инициализатора, например:
 
-`auto integer_value = 5;` // компилятор на основе числа 5 определил у integer_value тип переменной int 
+`auto integer_value = 5;` // у integer_value - тип переменной int 
 
 
-`auto floating_point_value = 4.0;` // на основе числа 4.0 у floating_point_value - тип double
+`auto floating_point_value = 4.0;` // у floating_point_value - тип double
 
 
-`auto my_object = new my_class();` // у my_object - тип my_class*
+`auto my_object = new my_class();` // у my_object - тип my_class
 
 
 ## «Auto» будет работать и с возвращаемыми значениями функций. 
