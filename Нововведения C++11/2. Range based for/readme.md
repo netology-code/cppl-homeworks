@@ -2,11 +2,6 @@
 
 Range-based for loop — это функциональность, введенная в C++11, которая позволяет проходить через элементы контейнера (такого как массив, вектор, list и т.д.) более простым и интуитивно понятным способом. 
 
-Синтаксис Range for следующий:
-
-![Image alt](https://github.com/netology-code/cppl-homeworks/blob/main/common/24.PNG)
-
-
 
 ## Рассмотрим, как работает классический способ вывода содержимого контейнера:
 
@@ -39,6 +34,12 @@ Range-based for loop — это функциональность, введенн
 
 
 ## Рассмотрим, как это будет работать с Range-based for
+
+Синтаксис Range for следующий:
+
+![Image alt](https://github.com/netology-code/cppl-homeworks/blob/main/common/24.PNG)
+
+
 
 Поскольку у нас интовый вектор, то мы пишем:
 
