@@ -19,9 +19,16 @@
 ## Для того, чтобы получить элемент, нужно использовать функцию std::get
 
 `std::string str = std::get<0>(simple_tuple);` // “str” 
+
+
 `int num = std::get<1>(simple_tuple);` // 4
+
+
 `char symbol = std::get<2>(simple_tuple);` // a
+
+
 `double num_double = std::get<3>(simple_tuple);` // 3.0
+
 
 ## Более простой способ получить элементы - использовать функцию std::tie
 `std::tie(str, num, symbol, num_double) = simple_tuple;`
