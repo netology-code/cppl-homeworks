@@ -47,7 +47,7 @@ Constexpr (constant expression) - это ключевое слово, испол
 
 Рассмотрим второй пример:
 
-`int new_sum (int v1, int v2){
+`int new_sum (int v1, int v2){`
 
 
 `return v1 + v2;`
