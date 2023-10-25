@@ -147,9 +147,7 @@
 ![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/0af49382-0cad-4476-adff-ef2a1d3b8c2d)
 
 
-Вызов из этой функции: 
-
-### Метод value_or
+### Вызов из этой функции: Метод value_or
 
 ![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/3ead84c4-e38a-4e31-8c74-bbb470d5cd51)
 
@@ -172,7 +170,18 @@
 
 `bool has_value = my_sqrt(-5).has_value();` // false
 
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/179f7da4-22fb-4a58-881f-f8c3c949e1ab)
+
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/243c95ac-1ec7-4349-89e4-8e4455810a1f)
+
+
 `bool has_value1 = my_sqrt(4).has_value();` // true
+
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/925615e9-7cf6-4aeb-851f-bf415d43614b)
+
+
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/4eda57e4-7fd4-4480-a599-3d2035b16e4b)
+
 
 ### std::any
 
@@ -181,23 +190,26 @@
 
 ### Рассмотрим пример 1:
 
-`std::any a = 5;`
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/93465960-72ea-4b30-aa24-a853b469e9a4)
 
-`std::cout << a.type().name() << ": " << std::any_cast<int>(a) << '\n';`
 
 Функция `std::any_cast` используется для извлечения значения из объекта `std::any`. В данном случае, тип, переданный в `std::any_cast<int>`, указывает, что значение должно быть приведено к типу `int`.
 
 В результате выполнения программы будет выведено сообщение int: 5, что указывает на тип переменной a (int) и ее значение (5).
 
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/712b9ec3-ec1e-4fb1-83df-0d58d22c70a2)
+
+
 ### Рассмотрим пример 2:
 
-`a = 3.14;`
-
-`std::cout << a.type().name() << ": " << std::any_cast<double>(a) << '\n';`
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/be13e0e5-74b5-4994-89ce-e3b8c7fdc2d2)
 
 В данном случае, тип, переданный в `std::any_cast<double>`, указывает, что значение должно быть приведено к типу `double`.
 
 В результате выполнения программы будет выведено сообщение double: 3.14, что указывает на тип переменной a (double) и ее значение (3.14).
+
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/5ee57a45-6374-490e-a065-c8f3370c6074)
+
 
 Итак, можно воспользоваться функцией `type`, которая вернёт объект `typeinfo`, у которого можем узнать тип.
 
@@ -205,9 +217,11 @@
 
 Если значение преобразовываем не к тому типу, который находится, то получим исключение `bad_cast`.
 
-Также можно проверить содержит ли значение:
+Также можно проверить содержит ли значение с помощью `bool has_value = a.has_value()`
 
-`bool has_value = a.has_value()`
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/31e69804-46e7-4adb-ad32-62ec15135cf8)
+
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/56162f3e-af8c-4892-82af-de81882034fe)
 
 Можно хранить значения любых типов в одном контейнере:
 
