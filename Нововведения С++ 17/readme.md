@@ -90,17 +90,15 @@
 
 ### Дополнительные функции std::holds_alternative и std::get_if
 
-Помогает проверить тип данных, который в данный момент используется.
+1. `std::holds_alternative` помогает проверить тип данных, который в данный момент используется.
 
 Рассмотрим пример:
 
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/e803b5e3-5a42-4f13-8dd1-6bfa5e392b55)
 
+Мы создали переменную `std::variant`, в треугольных скобках указали, что здесь может лежать либо `unsigned`, либо `string`. 
 
-`bool is_string = std::holds_alternative<std::string>(age);` // false
-
-`bool is_unsigned = std::holds_alternative<unsigned>(age);` // true
-
-Мы создали переменную `std::variant`, в треугольных скобках указали, что здесь может лежать либо `unsigned`, либо `string`. Решили работать с этим как с числом, присвоили `age = 51u`. 
+Решили работать с этим как с числом, присвоили `age = 51u`. 
 
 Дальше мы хотим узнать, что именно лежит в объекте класса `age`. 
 
@@ -109,7 +107,18 @@
 Если функция в данный момент содержит тот тип данных, который мы пытаемся получить, то результат будет `true`.
 Если она содержит другой тип данных, то результат будет `false`.
 
-Функция `get_if` позволяет вернуть данные, если их тип соответствует типу, укзанному в треугольных скобках.
+В нашем примере мы проверяем тип данных `string`. И результатом будет `false`: 
+
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/fda0f0ee-f749-48a9-84ff-21491451d571)
+
+Если мы проверим `unsigned`, получим `true`:
+
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/95c026bc-3080-44fe-933d-1b56638a705a)
+
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/594f12df-5da4-42d0-918a-a18ebd3cba20)
+
+
+2. Функция `get_if` позволяет вернуть данные, если их тип соответствует типу, укзанному в треугольных скобках.
 
 `auto try_string = std::get_if<std::string>(&age)` // nullptr, не получается, так как там лежит 51u. 
 
