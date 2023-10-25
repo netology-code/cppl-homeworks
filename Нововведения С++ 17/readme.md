@@ -144,37 +144,25 @@
 
 Функция `my_sqrt` возвращает квадратный корень из переданного значения.
 
-`std::optional<double> my_sqrt(double val) {`
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/0af49382-0cad-4476-adff-ef2a1d3b8c2d)
 
-`if (val < 0)` // корень из 0 или отрицательного числа не вычисляем
-    
-`return {};` // если 0 или отрицательное значение, возвращаем пустые фигурные скобки
-        
-`else`
-    
-`return sqrt(val);`
-        
-`}`
 
 Вызов из этой функции: 
 
 ### Метод value_or
 
-`double v = my_sqrt(-5).value_or(0);` 
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/3ead84c4-e38a-4e31-8c74-bbb470d5cd51)
 
-`my_sqrt` - название функции
 
-`(-5)` - передаём какое-то значение
+Мы попытались вычислить квадратный корень из -5. Получили 0:
 
-вызываем метод `value_or`
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/9bddfdd4-998a-4d08-ad12-0e00f35d4860)
 
-`(0)` - прописываем значение, которое будет присвоено, если у нас пустые фигурные скобки
 
-Мы попытались вычислить квадратный корень из -5. Получили 0
+Если мы попытаемся вычислить квадратный корень из 4, то получим значение 2:
 
-`double v1 = my_sqrt(4).value_or(0);` // 2
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/3af9dd5e-ad6b-4a3f-837c-796396fd568c)
 
-В этом случае, мы вычисляем квадратный корень из 4 и получаем значение 2.
 
 Итак: `value_or(arg)` - возвращает значение, если оно хранится, либо возвращает число в `arg`.
 
