@@ -15,18 +15,16 @@
 
 ### Рассмотрим пример:
 
-![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/eb4adf8e-a290-4fa3-8f6e-0ffbae46f2b4)
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/a9254b48-b9d9-435c-ad2a-09f552235876)
 
-У нас есть структура с тремя полями данных:
-`struct Person {`
+
+У нас есть структура `struct Person {` с тремя полями данных:
 
 `std::string name;`
 
 `unsigned score;`
 
 `std::string birthday;`
-
-`};`
 
 Мы инициализируем объект этой структуры:
 
@@ -40,9 +38,17 @@
 
 Чтобы получить эти данные раньше необходимо было последовательно, каждый раз обращаясь к объекту класса `Person`.
 
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/14e1d5af-23e0-4d81-8568-cbb314381d11)
+
+
 В стандарте C++17 появилась возможность использовать структурированные привязки:
 
 `auto [name, score, birthday] = p1;`
+
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/2b9404ed-0237-470e-ae0d-bf521f3e0fe8)
+
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/6f1d6fec-f8c4-4154-9697-f23a3f1fed8c)
+
 
 Значения полей из объекта `p1` будут присвоены соответствующим переменным `name`, `score` и `birthday`. 
 В данном примере названия переменных совпали с именами полей данных, но это не обязательно. Переменные могут называться как угодно.
@@ -60,10 +66,13 @@
 
 Это такой класс, экземпляр которого в данный момент времени содержит одно значение из альтернативных типов.
 
+Рассмотрим пример:
+
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/1fc832bc-77fc-4a06-a030-c6883cbdcc04)
+
 
 `std::variant<unsigned, std::string> age;` // Позволяет хранить в объекте этого класса одно из двух значений. Переменная age может хранить как число (unsigned) или как строку с датой рождения (std::string). Два типа, которые может в себе совмещать переменная, нужно передать в скобках <>
 
-	
 `age = 51u;`// Инициализируем, работаем как с числом
 
 `auto age_int = std::get<unsigned>(age);` // Но, чтобы получить эти данные, нужно использовать функцию std::get, явно прописать тип данных - unsigned, передать название переменной, которая является объектом класса std::variant - age
@@ -72,11 +81,12 @@
 
 `auto age_string = std::get<std::string>(age);` // Также использует функцию std::get и указываем тип данных. 
 
-Если мы попробуем из переменной, которая содержит string достать unsigned:
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/487efa6e-2306-4a5c-989c-ad3dee9b8655)
 
-`auto tmp = std::get<unsigned>(age);`
+Если мы попытаемся получить значение типа `unsigned` из объекта `age`, хотя объект `age` был присвоен значению типа `std::string`. Это вызывает исключение std::bad_variant_access, поскольку типы не соответствуют:
 
-Появится ошибка: bad_variant_acess. Так как сейчас в переменной `age` находится тип `string`.
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/100b8d33-e336-4eb9-aa24-fca114709f93)
+
 
 ### Дополнительные функции std::holds_alternative и std::get_if
 
