@@ -217,7 +217,7 @@
 
 Если значение преобразовываем не к тому типу, который находится, то получим исключение `bad_cast`.
 
-Также можно проверить содержит ли значение с помощью `bool has_value = a.has_value()`
+Также можно проверить содержит ли значение с помощью `int has_value = a.has_value()`
 
 ![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/31e69804-46e7-4adb-ad32-62ec15135cf8)
 
