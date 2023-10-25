@@ -113,14 +113,16 @@
 
 `auto try_string = std::get_if<std::string>(&age)` // nullptr, не получается, так как там лежит 51u. 
 
-![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/fd2c1ec4-af56-4a2f-bfe6-18e870a6cecd)
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/28b03fb4-fb49-47c2-be52-79ed6792f07e)
+
 
 ![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/d096fd53-9ad3-4942-be84-3a658f75f03a)
 
 
 `auto tmp = std::get_if<unsigned>(age);` // unsigned int *, возвращает значение.
 
-![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/a9b1a884-cc8c-4672-bfc5-ff4ff2e3dd8c)
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/fadc01e8-1fb0-4a9e-a927-5a3689f26f34)
+
 
 ![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/c7ad4483-a69e-4a7a-b39d-75d31e2649b0)
 
