@@ -29,7 +29,23 @@
 
 `double num_double = std::get<3>(simple_tuple);` // 3.0
 
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/9b2b4f0b-c2e6-4ec9-8037-6aa9faeb5d3a)
+
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/e0043058-1499-4fa1-bcae-bbc55d304433)
+
 
 ## Более простой способ получить элементы - использовать функцию std::tie
+
+
 `std::tie(str, num, symbol, num_double) = simple_tuple;`
+
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/cb915e5c-f0bf-4166-b146-71c23e076c70)
+
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/cae4c4ca-80af-4036-ba6e-734b54eb4591)
+
+
+
+
+
+
 
