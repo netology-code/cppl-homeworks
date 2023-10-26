@@ -39,9 +39,6 @@
 
 Чтобы получить эти данные раньше необходимо было последовательно, каждый раз обращаясь к объекту класса `Person`.
 
-![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/14e1d5af-23e0-4d81-8568-cbb314381d11)
-
-
 В стандарте C++17 появилась возможность использовать структурированные привязки:
 
 `auto [name, score, birthday] = p1;`
@@ -54,7 +51,7 @@
 Значения полей из объекта `p1` будут присвоены соответствующим переменным `name`, `score` и `birthday`. 
 В данном примере названия переменных совпали с именами полей данных, но это не обязательно. Переменные могут называться как угодно.
 
-### Синтаксис структурированных привязок выглядит следующим образом:
+Синтаксис структурированных привязок выглядит следующим образом:
 
 `auto [var1, var2, ...] = объект;`
 
@@ -89,7 +86,7 @@
 ![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/100b8d33-e336-4eb9-aa24-fca114709f93)
 
 
-### Дополнительные функции std::holds_alternative и std::get_if
+Дополнительные функции `std::holds_alternative` и `std::get_if`.
 
 1. `std::holds_alternative` помогает проверить тип данных, который в данный момент используется.
 
@@ -129,7 +126,7 @@
 ![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/d096fd53-9ad3-4942-be84-3a658f75f03a)
 
 
-`auto tmp = std::get_if<unsigned>(age);` // unsigned int *, возвращает значение.
+`auto try_unsigned = std::get_if<unsigned>(&age);` // unsigned int *, возвращает значение.
 
 ![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/fadc01e8-1fb0-4a9e-a927-5a3689f26f34)
 
@@ -148,7 +145,7 @@
 ![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/0af49382-0cad-4476-adff-ef2a1d3b8c2d)
 
 
-### Вызов из этой функции: Метод value_or
+Метод value_or - вызов из этой функции:
 
 ![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/3ead84c4-e38a-4e31-8c74-bbb470d5cd51)
 
@@ -160,14 +157,12 @@
 
 Если мы попытаемся вычислить квадратный корень из 4, то получим значение 2:
 
-![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/3af9dd5e-ad6b-4a3f-837c-796396fd568c)
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/f66fb223-d5c5-4156-aba2-4524303fd34d)
+
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/32d28d1a-6ccc-4020-b297-f760b5fa4e5b)
 
 
-Итак: `value_or(arg)` - возвращает значение, если оно хранится, либо возвращает число в `arg`.
-
-### Метод has_value
-
-`has_value` - проверяет, содержится значение или нет
+Метод has_value - проверка, содержится значение или нет
 
 `bool has_value = my_sqrt(-5).has_value();` // false
 
