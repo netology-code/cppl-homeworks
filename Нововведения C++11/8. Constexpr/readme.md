@@ -27,16 +27,8 @@ Constexpr (constant expression) - это ключевое слово, испол
 
 Рассмотрим первый пример:
 
-`constexpr int sum (int v1, int v2) {`
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/3e4e9a01-e3f2-48de-a91d-eeec3e83956e)
 
-
-`return v1 + v2;`
-
-
-`}`
-
-
-`constexpr int val = sum (5, 12);`
 
 Данный код использует функцию `sum` для вычисления суммы двух чисел `v1` и `v2`. Функция `sum` объявлена как `constexpr`, что означает, что она может быть вычислена на этапе компиляции. Функция возвращает сумму `v1` и `v2`.
 
@@ -44,19 +36,13 @@ Constexpr (constant expression) - это ключевое слово, испол
 
 Таким образом, переменная `val` будет иметь значение 17, так как 5 + 12 = 17.
 
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/3be3d2d9-9a42-4191-991c-f85b17cddef7)
+
 
 Рассмотрим второй пример:
 
-`int new_sum (int v1, int v2){`
+![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/55a1006a-106f-40bb-a1b9-b9124e01101c)
 
-
-`return v1 + v2;`
-
- 
-`}`
-
-
-`constexpr int val_new = new_sum(4, 5)`
 
 Здесь к функции не добавлен спецификатор `constexpr`. Вычислить её не удастся.
 
