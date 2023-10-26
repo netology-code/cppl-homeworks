@@ -1,9 +1,9 @@
 # Нововведения C++14
 
-1. Обобщённые лямбда-функции
-2. Инициализаторы лямбда захвата
-3. Автоматический вывод типов для функций
-4. Разделители разрядов
+1. [Обобщённые лямбда-функции](https://github.com/netology-code/cppl-homeworks/tree/main/%D0%9D%D0%BE%D0%B2%D0%BE%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20C%2B%2B14#1-%D0%BE%D0%B1%D0%BE%D0%B1%D1%89%D1%91%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BB%D1%8F%D0%BC%D0%B1%D0%B4%D0%B0-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8)
+2. [Инициализаторы лямбда захвата](https://github.com/netology-code/cppl-homeworks/tree/main/%D0%9D%D0%BE%D0%B2%D0%BE%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20C%2B%2B14#2-%D0%B8%D0%BD%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%82%D0%BE%D1%80%D1%8B-%D0%BB%D1%8F%D0%BC%D0%B1%D0%B4%D0%B0-%D0%B7%D0%B0%D1%85%D0%B2%D0%B0%D1%82%D0%B0)
+3. [Автоматический вывод типов для функций](https://github.com/netology-code/cppl-homeworks/tree/main/%D0%9D%D0%BE%D0%B2%D0%BE%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20C%2B%2B14#3-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4-%D1%82%D0%B8%D0%BF%D0%BE%D0%B2-%D0%B4%D0%BB%D1%8F-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B9)
+4. [Разделители разрядов](https://github.com/netology-code/cppl-homeworks/tree/main/%D0%9D%D0%BE%D0%B2%D0%BE%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20C%2B%2B14#4-%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D0%B8-%D1%80%D0%B0%D0%B7%D1%80%D1%8F%D0%B4%D0%BE%D0%B2)
 
 ## 1. Обобщённые лямбда-функции
 
