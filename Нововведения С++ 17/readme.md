@@ -14,7 +14,7 @@
 
 Однако вложенные структуры так не получится декомпозировать. С классами это также не работает.
 
-### Рассмотрим пример:
+Рассмотрим пример:
 
 ![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/a9254b48-b9d9-435c-ad2a-09f552235876)
 
@@ -179,12 +179,12 @@
 ![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/4eda57e4-7fd4-4480-a599-3d2035b16e4b)
 
 
-### std::any
+## std::any
 
 Это класс, который может хранить значения разных копируемых типов (не путать с auto).
 Если `auto` определяется на этапе компиляции, то `std::any` - это динамический тип, который может работать с разными типами данных.
 
-### Рассмотрим пример 1:
+Рассмотрим первый пример:
 
 ![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/93465960-72ea-4b30-aa24-a853b469e9a4)
 
@@ -196,7 +196,7 @@
 ![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/712b9ec3-ec1e-4fb1-83df-0d58d22c70a2)
 
 
-### Рассмотрим пример 2:
+Рассмотрим второй пример:
 
 ![image](https://github.com/netology-code/cppl-homeworks/assets/147130852/be13e0e5-74b5-4994-89ce-e3b8c7fdc2d2)
 
