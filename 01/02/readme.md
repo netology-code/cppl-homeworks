@@ -37,6 +37,6 @@ std::variant<int, std::string, std::vector<int>> get_variant() {
 
 <details>
 
-Какую функцию использовать.
+<summary>Какую функцию использовать.</summary>
 
 Используйте функцию `std::holds_alternative`, `std::get` или `std::get_if`.
