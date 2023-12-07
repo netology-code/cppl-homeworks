@@ -112,7 +112,10 @@ TEST_CASE( "Factorials are computed", "[factorial]" ) {
 ![](https://github.com/netology-code/cppl-homeworks/blob/main/common/catch2/Pasted%20image%2020231122171357.png)
 Нажимаем Сборка->Собрать всё (F7). Успешный вывод сборки:
 ![](https://github.com/netology-code/cppl-homeworks/blob/main/common/catch2/Pasted%20image%2020231122171627.png)
-Подсвечен результат сборки - бинарник с юнит-тестом. Можно запустить его из системы по пути `C:\projects\test_factorial\out\build\x64-Debug\demoVendorCatch2`, либо выбираем для запуска прямо из студии: 
+Подсвечен результат сборки - бинарник с юнит-тестом. 
+
+### Запуск юнит-теста
+Можно запустить его из системы по пути `C:\projects\test_factorial\out\build\x64-Debug\demoVendorCatch2`, либо выбираем для запуска прямо из студии: 
 ![](https://github.com/netology-code/cppl-homeworks/blob/main/common/catch2/Pasted%20image%2020231122171759.png)
 
 
