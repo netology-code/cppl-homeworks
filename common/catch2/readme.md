@@ -137,3 +137,7 @@ TEST_CASE( "Factorials are computed", "[factorial]" ) {
 
 * При запуске пишет "Файлы не найдены".
 > Выберите активным проектом demoCatch2Vendoring. Иначе, активным проектом может быть сама библиотека.
+
+### Полезные ссылки
+
+* [Официальная документация по проекту. Интеграция с Cmake](https://github.com/catchorg/Catch2/blob/devel/docs/cmake-integration.md)
