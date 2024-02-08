@@ -7,11 +7,21 @@
 1. Научиться работать с библиотекой Catch2.
 2. Научиться покрывать свой код тестами.
 
+-----
+
 ### Подготовка к выполнению домашнего задания
 
 1. Для выполнения задания и прохождения курса нужен компьютер с операционной системой Windows или macOS и установленной на нём Microsoft Visual Studio 2022, готовой для разработки консольных программ на C++.
 2. Аккаунт на [GitHub](https://github.com/). [Инструкция по регистрации на GitHub](https://github.com/netology-code/cppm-homeworks/tree/main/common/sign%20up).
 3. Система контроля версий [Git](https://git-scm.com/), установленная локально. [Инструкция по установке Git](https://github.com/netology-code/cppm-homeworks/tree/main/common/download).
+
+-----
+
+### Инструменты и дополнительные материалы, которые пригодятся для выполнения задания
+
+[Инструкция](https://github.com/netology-code/cppl-homeworks/tree/main/common/catch2) по работе с Catch2.
+
+-----
 
 ### Инструкция по выполнению домашнего задания
 
