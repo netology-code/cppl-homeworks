@@ -89,6 +89,7 @@ TEST_CASE( "Factorials are computed", "[factorial]" ) {
 1. Переходим на [официальную страницу Catch2](https://github.com/catchorg/Catch2).
 
 2. Нажимаем кнопку Code->Download zip
+
 ![](https://github.com/netology-code/cppl-homeworks/blob/main/common/catch2/Pasted%20image%2020231122165402.png)
 
 3. Скачанный архив распаковываем в каталог с проектом  `C:\projects\test_factorial\` и переименовываем в `catch2`. Обратите внимание на новую структуру каталога:
@@ -127,24 +128,31 @@ TEST_CASE( "Factorials are computed", "[factorial]" ) {
 ### Шаг 3. Сборка в Visual Studio
 
 1. Теперь можно открывать проект в Студии. После запуска нажимаем «Продолжить без кода» и выбираем «Открыть» -> «Cmake»:
+
 ![](https://github.com/netology-code/cppl-homeworks/blob/main/common/catch2/Pasted%20image%2020231122171210.png)
 
 2. Выбираем наш `CMakeLists` из `test_factorial`. Студия начнёт автоматический разбор и подготовку проекта. Обратите внимание на вывод построения Cmake, всё должно пройти без ошибок:
+
 ![](https://github.com/netology-code/cppl-homeworks/blob/main/common/catch2/Pasted%20image%2020231122171357.png)
 
 3.Нажимаем Сборка->Собрать всё (F7). Успешный вывод сборки:
+
 ![](https://github.com/netology-code/cppl-homeworks/blob/main/common/catch2/Pasted%20image%2020231122171627.png)
+
 Подсвечен результат сборки - бинарник с юнит-тестом. 
 
 -----
 
 ### Шаг 4. Запуск юнит-теста
 Можно запустить юнит-тест из системы по пути `C:\projects\test_factorial\out\build\x64-Debug\demoVendorCatch2`, либо выбираем для запуска прямо из студии: 
+
 ![](https://github.com/netology-code/cppl-homeworks/blob/main/common/catch2/Pasted%20image%2020231122171759.png)
 
 
 Результат запуска:
+
 ![](https://github.com/netology-code/cppl-homeworks/blob/main/common/catch2/Pasted%20image%2020231122171933.png)
+
 Обратите внимание, `Randomness` у вас может быть другим.
 
 -----
