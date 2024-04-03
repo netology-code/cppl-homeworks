@@ -2,7 +2,7 @@
 
 ### Описание
 В этом задании вам нужно написать тесты для некоторых функций двусвзяного списка.
-Сначала добавьте Catch2 в ваш проект. Инструкция дана [по ссылке](https://github.com/catchorg/Catch2/blob/devel/docs/cmake-integration.md).
+Сначала добавьте Catch2 в ваш проект. Инструкция дана [по ссылке](https://github.com/netology-code/cppl-homeworks/tree/main/common/catch2).
 
 Нужно проверить работу функций и написать unit-тесты для них:
 1. Empty.
